@@ -2,3 +2,7 @@ h1{
     color: black;
     align-items: center;
 }
+header{
+    display: flex;
+    flex-direction: row;
+}
