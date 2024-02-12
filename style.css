@@ -1,12 +1,17 @@
 .box-grid{
-    display: grid;
+   display: grid;  /* grid */
+   grid-template-columns: 1fr, 2fr, 1fr;
+   grid-template-rows: 1fr, 2fr;
 }
+
 h1{
     color: black;
-    align-items: center;
+    text-align: center; /* Rubrik */
 }
+
 header{
+    border: 2px solid #274e13 ; /* Underrubrikerna, om oss, kundtjänst osv */
     display: flex;
     flex-direction: row;
-    
+    justify-content:space-evenly;
 }
